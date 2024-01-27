@@ -21,7 +21,7 @@
       </div>
       <div>
           <h4>A/Professor Ratilal Lalloo, BChD, BSc Med Hons (Epidemiol), MChD (Community Dentistry), PhD (Dental Public Health – London)</h4>
-          <h4>, Discipline Lead: Dental Public Health, Director (Research Training).</h4>
+          <h4>Discipline Lead: Dental Public Health, Director (Research Training).</h4>
       </div>
       <div>
         <h1
