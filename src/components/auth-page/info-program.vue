@@ -136,24 +136,27 @@
                 <v-row>
                     <v-col cols="12">
                         <p>This study adheres to the Guidelines of the ethical review
-                                process of The University of Queensland and the National
-                                Statement on Ethical Conduct in Human Research. Whilst you are
-                                free to discuss your participation in this study with project
-                                staff as below, if you would like to speak to an officer of the
-                                University not involved in the study,<br> you may contact the Ethics
-                                Coordinators on tel: <a style="color: white;border-bottom: 1px solid white;">+617 3365 3924 / +617 3443 1656 </a>  or email
-                                <a style="color: white;border-bottom: 1px solid white;"> humanethics@research.uq.edu.au. </a><br>
+                            process of The University of Queensland and the National
+                            Statement on Ethical Conduct in Human Research. Whilst you are
+                            free to discuss your participation in this study with project
+                            staff as below, if you would like to speak to an officer of the
+                            University not involved in the study,<br> you may contact the Ethics
+                            Coordinators on tel: <a href="tel:+61733653924" style="color: white; text-decoration: none; border-bottom: 1px solid white;">+617 3365 3924 / +617 3443 1656 </a> or email
+                            <a href="mailto:humanethics@research.uq.edu.au" style="color: white; text-decoration: none; border-bottom: 1px solid white;"> humanethics@research.uq.edu.au. </a><br>
 
-                                If you would like to be sent a copy of the final research report
-                                or a summary of our findings, please contact us through the
-                                details provided below. If there are any questions regarding our
-                                research or use of data that you would like addressed, please
-                                contact us. Dr Ian L Davies<br>
-                                <a style="color: white;border-bottom: 1px solid white;"> (idavies@restoredental.com.au </a> or<a style="color: white;border-bottom: 1px solid white;"> +61 7 34832000)</a>
-                                Associate Professor Ratilal Lalloo
-                                <a style="color: white;border-bottom: 1px solid white;"> (r.lalloo@uq.edu.au </a> or <a style="color: white;border-bottom: 1px solid white;"> +61 7 33658047)</a>
+                            If you would like to be sent a copy of the final research report
+                            or a summary of our findings, please contact us through the
+                            details provided below. If there are any questions regarding our
+                            research or use of data that you would like addressed, please
+                            contact us. Dr Ian L Davies<br>
+                            <a href="mailto:idavies@restoredental.com.au" style="color: white; text-decoration: none; border-bottom: 1px solid white;"> (idavies@restoredental.com.au </a> or
+                            <a href="tel:+61734832000" style="color: white; text-decoration: none; border-bottom: 1px solid white;"> +61 7 34832000)</a>
+                            Associate Professor Ratilal Lalloo
+                            <a href="mailto:r.lalloo@uq.edu.au" style="color: white; text-decoration: none; border-bottom: 1px solid white;"> (r.lalloo@uq.edu.au </a> or
+                            <a href="tel:+61733658047" style="color: white; text-decoration: none; border-bottom: 1px solid white;"> +61 7 33658047)</a>
                             <br>
-                                Thank you for your participation.</p>
+                            Thank you for your participation.
+                        </p>
                     </v-col>
                 </v-row>
                 <!-- <v-timeline :reverse="reverse" :dense="$vuetify.breakpoint.smAndDown">
