@@ -176,8 +176,8 @@ export default {
       activePicker: null,
       date: null,
       emailRules: [
-      (v) => /^[\w+]+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(v) || "Invalid email.",
-    ],
+        (v) => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v) || "Invalid email.",
+      ],
       menu: false,
       rules: [(value) => !!value || "Required."],
       agreement: false,
