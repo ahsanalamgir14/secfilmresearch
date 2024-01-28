@@ -20,15 +20,15 @@
     </div>
     <!-- {{ formatedCountdown || 'countdown over' }} -->
     <div style="padding: 30px;"  id="vimeo-player">
-      <video  width="100%"
-        height="600px" id="video1toWatch" @ended="wtch = true" src="https://secfilm.beta.resurgedigital.com.au/video_user.mp4"
-        controls>
-       
+      <video width="100%" height="600px" id="video1toWatch" @ended="wtch = true" controls :key="src">
+        <source :src="src" type="video/mp4">
+        Your browser does not support the video tag.
       </video>
-        <!-- <iframe
+
+      <!-- <iframe
         width="100%"
         height="600px"
-        src="https://streamable.com/e/lv64h7?loop=0?Id=APKAIEYUVEN4EVB2OKEQ"
+        src="https://secfilmresearch.com.au/videos/sec-film.mp4"
         frameborder="0"
         allowfullscreen
       ></iframe> -->
@@ -76,6 +76,7 @@ export default {
       watched: false,
       wtch:false,
       dialog: false,
+      src: "https://secfilmresearch.com.au/videos/sec-film.mp4"
     }
   },
 
