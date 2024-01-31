@@ -131,7 +131,7 @@ export const actions = {
                 let newWatch = rootGetters["authPageModule/getWatchNumber"] + 1
                 commit('setWatchNumber',newWatch)
             }).catch(error =>{
-            commit('setMessageWatched', error.response.data.message)
+                commit('setMessageWatched', error.response.data.message)
 
             })
         

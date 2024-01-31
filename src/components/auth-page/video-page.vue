@@ -54,7 +54,7 @@
     >
       <v-card>
         <v-card-text class="pa-10">
-         Thanks for watching the film. Please answer the questionnaire again to measure the changes in your level of dental anxiety. 
+          {{ message }}
         </v-card-text>
 
         <v-divider></v-divider>
