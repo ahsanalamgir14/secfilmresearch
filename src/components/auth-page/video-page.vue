@@ -20,7 +20,7 @@
     </div>
     <!-- {{ formatedCountdown || 'countdown over' }} -->
     <div style="padding: 30px;"  id="vimeo-player">
-      <video width="100%" height="600px" id="video1toWatch" @ended="wtch = true" controls :key="src">
+      <video width="100%" height="600px" id="video1toWatch" @ended="wtch = true" controls :key="src" controlsList="nodownload">
         <source :src="src" type="video/mp4">
         Your browser does not support the video tag.
       </video>
