@@ -45,9 +45,10 @@ export default {
     // }
   },
   created() {
-    if (localStorage.getItem("token")) {
-      console.log("successful");
+    if (!localStorage.getItem("token")) {
+      console.log("no user found");
     } else {
+      console.log("user already logged in");
       this.$router.push("/");
     }
   },
