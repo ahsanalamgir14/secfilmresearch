@@ -7,7 +7,7 @@
             <v-progress-linear indeterminate color="info"></v-progress-linear>
         </div>
         <div v-else>
-            <v-data-table :headers="headers" :items="desserts" sort-by="calories" class="elevation-1">
+            <v-data-table :headers="headers" :items="desserts" :items-per-page="itemsPerPage" :footer-props="footerOptions" sort-by="calories" class="elevation-1">
                 <template v-slot:item.age="{ item }">
                     <v-chip :color="isAlertAge(item.age)" dark>
                         {{ item.age }}
@@ -59,6 +59,10 @@ export default {
         return {
             singleSelect: false,
             selected: [],
+            itemsPerPage: 50,
+            footerOptions: {
+                itemsPerPageOptions: [5, 10, 20, 50, 100], // this is the proper name - not "items-per-page options" like what you're using
+            },
             headers: [
                 { text: 'Name', value: 'name' },
                 { text: 'Email', value: 'email' },
