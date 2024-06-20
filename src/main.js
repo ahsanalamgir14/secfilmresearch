@@ -10,6 +10,9 @@ import "vue-toastification/dist/index.css"
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import Toast from 'vue-toastification'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 // import VuePlyr from 'vue-plyr'
 // import 'vue-plyr/dist/vue-plyr.css'
 
@@ -23,6 +26,8 @@ Vue.use(Toast, {
 Vue.config.productionTip = false;
 // axios
 Vue.use(VueAxios, axios);
+Vue.use(BootstrapVue);
+Vue.use(IconsPlugin);
 // Vue.use(VuePlyr, {
 //     plyr: {}
 //   })

@@ -1,0 +1,152 @@
+{
+  "SNV": {
+    "columns": [
+      {
+        "label": "Somatic Databases",
+        "key": "Databases",
+        "filter": {
+          "type": "multiselect",
+          "options": ["cosmic", "dbsnp"],
+          "default": []
+        }
+      },
+      {
+        "label": "ACMG",
+        "key": "ACMG_Guideline",
+        "filter": {
+          "type": "multiselect",
+          "options": [
+            "Uncertain significance",
+            "Benign",
+            "Likely benign",
+            "Likely pathogenic",
+            "Pathogenic"
+          ],
+          "default": ["Pathogenic", "Likely pathogenic"]
+        }
+      },
+      {
+        "label": "Clinvar",
+        "key": "CLIN_SIG",
+        "filter": {
+          "type": "multiselect",
+          "options": [
+            "Benign",
+            "Likely Benign",
+            "Pathogenic",
+            "Likely Pathogenic",
+            "Uncertain Significance",
+            "Drug Response"
+          ],
+          "default": []
+        }
+      },
+      {
+        "label": "CancerVar",
+        "key": "CancerVar",
+        "filter": {
+          "type": "multiselect",
+          "options": [
+            "Tier_IV_benign",
+            "Tier_III_Uncertain",
+            "Tier_II_potential"
+          ],
+          "default": []
+        }
+      },
+      {
+        "label": "Mutational Effect",
+        "key": "MUTATION_EFFECT",
+        "filter": {
+          "type": "multiselect",
+          "options": [
+            "Likely Loss-of-function",
+            "Likely Neutral",
+            "Inconclusive",
+            "Loss-of-function",
+            "Likely Gain-of-function",
+            "Gain-of-function"
+          ],
+          "default": []
+        }
+      },
+      {
+        "label": "Variant Type",
+        "key": "Consequence",
+        "filter": {
+          "type": "multiselect",
+          "options": [
+            "Missense_Mutation",
+            "Splice_Region",
+            "In_Frame_Del",
+            "Frame_Shift_Del",
+            "Splice_Site",
+            "In_Frame_Ins",
+            "Frame_Shift_Ins",
+            "Nonsense_Mutation",
+            "Translation_Start_Site",
+            "Nonstop_Mutation"
+          ],
+          "default": []
+        }
+      },
+      {
+        "label": "Single Select",
+        "key": "single_select",
+        "filter": {
+          "type": "single_select",
+          "options": [
+            "Missense_Mutation",
+            "Splice_Region",
+            "In_Frame_Del",
+            "Frame_Shift_Del",
+            "Splice_Site",
+            "In_Frame_Ins",
+            "Frame_Shift_Ins",
+            "Nonsense_Mutation",
+            "Translation_Start_Site",
+            "Nonstop_Mutation"
+          ],
+          "default": []
+        }
+      },
+      {
+        "label": "VAF",
+        "key": "VAF",
+        "filter": {
+          "type": "range",
+          "min": 0.005,
+          "max": 1,
+          "default": {}
+        }
+      },
+      {
+        "label": "Date",
+        "key": "Date",
+        "filter": {
+          "type": "Date",
+          "value": 0,
+          "default": ""
+        }
+      },
+      {
+        "label": "Total Depth",
+        "key": "t_depth",
+        "filter": {
+          "type": "slider",
+          "value": 0,
+          "default": ""
+        }
+      },
+      {
+        "label": "t_alt_count",
+        "key": "t_alt_count",
+        "filter": {
+          "type": "slider",
+          "value": 0,
+          "default": ""
+        }
+      }
+    ]
+  }
+}
