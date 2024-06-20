@@ -102,6 +102,7 @@ export const actions = {
 
         }).catch(error => {
             let x = `${error.response.data.message}`
+            console.log('x : ', x );
             let res = {
                 data: {
                     status: error.response.status,
@@ -109,8 +110,8 @@ export const actions = {
 
                 }
             }
-            router.push('/not-successful')
             toastification(res, data.app)
+            router.push('/not-successful')
         });
 
     },
